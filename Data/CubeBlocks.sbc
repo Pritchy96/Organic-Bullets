@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <!-- Region BatteryBlock-->
+    
+	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallGatlingGun</TypeId>
+		<SubtypeId>RB_PointDefence_Large</SubtypeId>
+      </Id>
+      <DisplayName>Point Defence</DisplayName>
+      <Icon>Textures\Icons\RB_PointDefence.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\RB_PointDefence_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Right" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Top" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+	</MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RemoteControlConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RemoteControlConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>RB_PointDefence</BlockPairName>
+      <Center x="0" y="0" z="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>13</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <WeaponDefinitionId Subtype="RB_PointDefence" />
+      <InventoryMaxVolume>0.064</InventoryMaxVolume>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+    </Definition>
+	
+	
+	
+	
+	  </CubeBlocks>
+</Definitions>

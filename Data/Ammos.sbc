@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>RB_PointDefenceAmmo</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>125</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>500</MaxTrajectory>
+        <BackkickForce>50</BackkickForce>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>0</ProjectileHitImpulse>
+        <ProjectileMassDamage>0</ProjectileMassDamage>
+        <ProjectileHealthDamage>185</ProjectileHealthDamage>
+      </ProjectileProperties>
+    </Ammo>
+  </Ammos>
+</Definitions>

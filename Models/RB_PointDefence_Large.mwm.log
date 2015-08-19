@@ -1,0 +1,17 @@
+Running from: C:\Users\Michael\AppData\Local\Temp\tmpkogqy6ab 
+Command: D:\Games\Steam\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:RB_PointDefence_Large.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\ConveyorTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\ConveyorTexture_ns.dds: WARNING: 
+    Texture NormalTexture does not exists!
+Textures\Models\Cubes\ConveyorTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\ConveyorTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\ConveyorTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+C:\Users\Michael\AppData\Local\Temp\tmpkogqy6ab\Content\RB_PointDefence_Large.fbx: Processed
+: 
+    : Finished in 0.2s
